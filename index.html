@@ -11,12 +11,19 @@
             margin: 0;
             padding: 0;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
         }
         header {
             background-color: #4CAF50;
             color: white;
             text-align: center;
             padding: 1em 0;
+            position: sticky; /* Make header sticky */
+            top: 0; /* Stick to the top */
+            width: 100%; /* Full width */
+            z-index: 1000; /* Ensure it stays on top of other content */
         }
         main {
             max-width: 800px;
@@ -24,9 +31,10 @@
             padding: 20px;
             background: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1; /* Allow main to grow and fill available space */
         }
         h1 {
-            color: #4CAF50;
+            color: #ffffff;
         }
         ul {
             list-style-type: none;
@@ -52,9 +60,6 @@
             padding: 20px;
             background-color: #4CAF50;
             color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
     </style>
 </head>
@@ -63,38 +68,36 @@
         <h1>Welcome to my Web Development Projects</h1>
     </header>
     <main>
-        <h2>Basic HTML and CSS</h2>
-        <ul>
-            <li><a href="Cat-Photo-App/index.html">🐱 Project 1: Cat Photo App</a></li>
-            <li><a href="Cafe-Menu/index.html">☕ Project 2: Cafe Menu</a></li>
-            <li><a href="Color-Marker/index.html">🎨 Project 3: Color Marker</a></li>
-            <li><a href="Registration-Form/index.html">📝 Project 4: Registration Form</a></li>
-            <li><a href="Survey-Form/index.html">📝 Project 5: Survey Form</a></li>
-            <li><a href="Rothko-Painting/index.html">🎨 Project 6: Rothko Painting</a></li>
-            <li><a href="CSS-Flexbox-Cat-Gallery/index.html">🐱 Project 7: CSS Flexbox Cat Gallery</a></li>
-            <li><a href="Nutrition-Label/index.html">🍏 Project 8: Nutrition Label</a></li>
-            <li><a href="HTML-CSS-quiz/index.html">📝 Project 9: HTML CSS Quiz</a></li>
-            <li><a href="Tribute-Page/index.html">🌟 Project 10: Tribute Page</a></li>
-            <li><a href="Balance-Sheet/index.html">📊 Project 11: Balance Sheet</a></li>
-            <li><a href="Cat-Painting/index.html">🎨 Project 12: Cat Painting</a></li>
-            <li><a href="Piano/index.html">🎹 Project 13: Piano</a></li>
-            <li><a href="Technical-Documentation-Page/index.html">📑 Project 14: Technical Documentation Page</a></li>
-            <li><a href="City-Skyline/index.html">🌆 Project 15: City Skyline</a></li>
-            <li><a href="CSS-Grid-Magazine/index.html">📰 Project 16: CSS Grid Magazine</a></li>
-            <li><a href="Product-Landing-Page/index.html">🛒 Project 17: Product Landing Page</a></li>
-            <li><a href="Ferris-Wheel/index.html">🎡 Project 18: Ferris Wheel</a></li>
+        <div id="bacic-html-and-css"> 
+            <h2>Basic HTML and CSS</h2>
+            <ul>
+                <li><a href="Cat-Photo-App/index.html">🐱 Project 1: Cat Photo App</a></li>
+                <li><a href="Cafe-Menu/index.html">☕ Project 2: Cafe Menu</a></li>
+                <li><a href="Color-Marker/index.html">🎨 Project 3: Color Marker</a></li>
+                <li><a href="Registration-Form/index.html">📝 Project 4: Registration Form</a></li>
+                <li><a href="Survey-Form/index.html">📝 Project 5: Survey Form</a></li>
+                <li><a href="Rothko-Painting/index.html">🎨 Project 6: Rothko Painting</a></li>
+                <li><a href="CSS-Flexbox-Cat-Gallery/index.html">🐱 Project 7: CSS Flexbox Cat Gallery</a></li>
+                <li><a href="Nutrition-Label/index.html">🍏 Project 8: Nutrition Label</a></li>
+                <li><a href="HTML-CSS-quiz/index.html">📝 Project 9: HTML CSS Quiz</a></li>
+                <li><a href="Tribute-Page/index.html">🌟 Project 10: Tribute Page</a></li>
+                <li><a href="Balance-Sheet/index.html">📊 Project 11: Balance Sheet</a></li>
+                <li><a href="Cat-Painting/index.html">🎨 Project 12: Cat Painting</a></li>
+                <li><a href="Piano/index.html">🎹 Project 13: Piano</a></li>
+                <li><a href="Technical-Documentation-Page/index.html">📑 Project 14: Technical Documentation Page</a></li>
+                <li><a href="City-Skyline/index.html">🌆 Project 15: City Skyline</a></li>
+                <li><a href="CSS-Grid-Magazine/index.html">📰 Project 16: CSS Grid Magazine</a></li>
+                <li><a href="Product-Landing-Page/index.html">🛒 Project 17: Product Landing Page</a></li>
+                <li><a href="Ferris-Wheel/index.html">🎡 Project 18: Ferris Wheel</a></li>
+                <li><a href="Penguin/index.html">🐧 Project 19: Penguin</a></li>
 
-
-
-
-
-
-
-        </ul>
+            </ul>
+        </div> 
     </main>
     <footer>
         <p>Created by André Lopes</p>
     </footer>
 </body>
 </html>
+
 
