@@ -4,100 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development Projects</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            position: sticky; /* Make header sticky */
-            top: 0; /* Stick to the top */
-            width: 100%; /* Full width */
-            z-index: 1000; /* Ensure it stays on top of other content */
-        }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            flex: 1; /* Allow main to grow and fill available space */
-        }
-        h1 {
-            color: #ffffff;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            background: #e2e2e2;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        ul li:hover {
-            background: #d4d4d4;
-        }
-        ul li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #4CAF50;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Welcome to my Web Development Projects</h1>
     </header>
     <main>
-        <div id="bacic-html-and-css"> 
-            <h2>Basic HTML and CSS</h2>
-            <ul>
-                <li><a href="Cat-Photo-App/index.html">🐱 Project 1: Cat Photo App</a></li>
-                <li><a href="Cafe-Menu/index.html">☕ Project 2: Cafe Menu</a></li>
-                <li><a href="Color-Marker/index.html">🎨 Project 3: Color Marker</a></li>
-                <li><a href="Registration-Form/index.html">📝 Project 4: Registration Form</a></li>
-                <li><a href="Survey-Form/index.html">📝 Project 5: Survey Form</a></li>
-                <li><a href="Rothko-Painting/index.html">🎨 Project 6: Rothko Painting</a></li>
-                <li><a href="CSS-Flexbox-Cat-Gallery/index.html">🐱 Project 7: CSS Flexbox Cat Gallery</a></li>
-                <li><a href="Nutrition-Label/index.html">🍏 Project 8: Nutrition Label</a></li>
-                <li><a href="HTML-CSS-quiz/index.html">📝 Project 9: HTML CSS Quiz</a></li>
-                <li><a href="Tribute-Page/index.html">🌟 Project 10: Tribute Page</a></li>
-                <li><a href="Balance-Sheet/index.html">📊 Project 11: Balance Sheet</a></li>
-                <li><a href="Cat-Painting/index.html">🎨 Project 12: Cat Painting</a></li>
-                <li><a href="Piano/index.html">🎹 Project 13: Piano</a></li>
-                <li><a href="Technical-Documentation-Page/index.html">📑 Project 14: Technical Documentation Page</a></li>
-                <li><a href="City-Skyline/index.html">🌆 Project 15: City Skyline</a></li>
-                <li><a href="CSS-Grid-Magazine/index.html">📰 Project 16: CSS Grid Magazine</a></li>
-                <li><a href="Product-Landing-Page/index.html">🛒 Project 17: Product Landing Page</a></li>
-                <li><a href="Ferris-Wheel/index.html">🎡 Project 18: Ferris Wheel</a></li>
-                <li><a href="Penguin/index.html">🐧 Project 19: Penguin</a></li>
-
-            </ul>
-        </div> 
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2 class="grid-title">Basic HTML & CSS</h2>
+                <ul>
+                    <li><a href="Basic-HTML-&-CSS/Cat-Photo-App/index.html">🐱 Project 1: Cat Photo App</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Cafe-Menu/index.html">☕ Project 2: Cafe Menu</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Color-Marker/index.html">🎨 Project 3: Color Marker</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Registration-Form/index.html">📝 Project 4: Registration Form</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Survey-Form/index.html">📝 Project 5: Survey Form</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Rothko-Painting/index.html">🎨 Project 6: Rothko Painting</a></li>
+                    <li><a href="Basic-HTML-&-CSS/CSS-Flexbox-Cat-Gallery/index.html">🐱 Project 7: CSS Flexbox Cat Gallery</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Nutrition-Label/index.html">🍏 Project 8: Nutrition Label</a></li>
+                    <li><a href="Basic-HTML-&-CSS/HTML-CSS-quiz/index.html">📝 Project 9: HTML CSS Quiz</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Tribute-Page/index.html">🌟 Project 10: Tribute Page</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Balance-Sheet/index.html">📊 Project 11: Balance Sheet</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Cat-Painting/index.html">🎨 Project 12: Cat Painting</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Piano/index.html">🎹 Project 13: Piano</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Technical-Documentation-Page/index.html">📑 Project 14: Technical Documentation Page</a></li>
+                    <li><a href="Basic-HTML-&-CSS/City-Skyline/index.html">🌆 Project 15: City Skyline</a></li>
+                    <li><a href="Basic-HTML-&-CSS/CSS-Grid-Magazine/index.html">📰 Project 16: CSS Grid Magazine</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Product-Landing-Page/index.html">🛒 Project 17: Product Landing Page</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Ferris-Wheel/index.html">🎡 Project 18: Ferris Wheel</a></li>
+                    <li><a href="Basic-HTML-&-CSS/Penguin/index.html">🐧 Project 19: Penguin</a></li>
+                </ul>
+            </div>
+            <div class="grid-item">
+                <h2 class="grid-title">HTML, CSS & JS</h2>
+                <ul>
+                    <li><a href="HTML-CSS-JS/Pyramid/index.html">🔺 Project Pyramid</a></li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Created by André Lopes</p>
     </footer>
 </body>
 </html>
+
 
 
