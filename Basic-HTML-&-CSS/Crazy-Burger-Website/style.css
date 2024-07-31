@@ -1,0 +1,167 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: calc(0.8em + 0.5vw); /* Adjust font size relative to viewport width */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Skip to Main Content Link */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-to-content:focus {
+    top: 0;
+}
+
+/* Header and Navigation Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    
+}
+
+.nav li {
+    margin: 0 15px; /* Adjust spacing as needed */
+}
+
+.nav a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    background-color: #333;
+}
+
+.nav a:hover {
+    background-color: #575757;
+}
+
+/* Hover Effect */
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#index-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    background-color: #ffe6b3;
+}
+
+#index-images img {
+    max-width: 80%;
+    height: auto;
+    flex: 1;
+    margin: 20px;
+    border: 15px solid black;
+}
+
+
+
+#logo {
+    width: 300px;
+    height: auto;
+}
+
+#index-news-container {
+    background-color: #ffaa80;
+}
+
+@keyframes gradient-move {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+#index-news {
+    text-align: center;
+    font-size: 150px;
+    background-color: #ffaa80; /* Original background color */
+    padding: 35px;
+    background: linear-gradient(270deg, #001f3f, #0059b3, #003366, #0073e6, #004080, #66d9ff);
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent;
+    animation: gradient-move 4s linear infinite;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    padding: 5px;
+    background-color: #ffaa80;
+    justify-items: center; /* Center grid items horizontally */
+    align-items: center;   /* Center grid items vertically */
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid black;
+    background-color: rgb(153, 88, 1);
+    color: white;
+}
+.food-images {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-images {
+    border: 5px solid black;
+}
+
+.menu-items:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
