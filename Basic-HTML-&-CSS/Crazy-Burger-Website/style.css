@@ -98,6 +98,7 @@ footer {
     flex: 1;
     margin: 20px;
     border: 15px solid black;
+    width: auto;
 }
 
 
