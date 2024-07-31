@@ -88,6 +88,8 @@ footer {
     align-items: center;
     gap: 10px; 
     background-color: #ffe6b3;
+    padding: 100px 250px 100px 250px;
+    
 }
 
 #index-images img {
