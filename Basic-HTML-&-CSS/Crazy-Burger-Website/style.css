@@ -103,12 +103,16 @@ footer {
 
 
 #logo {
-    width: 300px;
+    max-width: 300px;
     height: auto;
+    width: auto;
 }
 
 #index-news-container {
     background-color: #ffaa80;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 @keyframes gradient-move {
@@ -122,7 +126,7 @@ footer {
 
 #index-news {
     text-align: center;
-    font-size: 150px;
+    font-size: 10vw; /* Use vw for responsive font size */
     background-color: #ffaa80; /* Original background color */
     padding: 35px;
     background: linear-gradient(270deg, #001f3f, #0059b3, #003366, #0073e6, #004080, #66d9ff);
@@ -133,7 +137,6 @@ footer {
     animation: gradient-move 4s linear infinite;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -143,6 +146,7 @@ footer {
     background-color: #ffaa80;
     justify-items: center; /* Center grid items horizontally */
     align-items: center;   /* Center grid items vertically */
+    padding: 100px 150px 100px 150px;
 }
 
 .grid-item {
@@ -157,13 +161,21 @@ footer {
 .food-images {
     max-width: 100%;
     height: auto;
+    width: auto;
 }
 
 .menu-images {
     border: 5px solid black;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .menu-items:hover {
     transform: scale(1.05);
     transition: transform 0.2s;
+}
+ 
+.menu-items {
+    padding: 50px;
 }
