@@ -18,6 +18,7 @@ header {
     width: 100%; /* Full width */
     z-index: 1000; /* Ensure it stays on top of other content */
 }
+
 main {
     display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center the grid container */
@@ -70,6 +71,7 @@ text-decoration: none;
 color: #333;
 font-weight: bold;
 }
+
 
 footer {
     text-align: center;
