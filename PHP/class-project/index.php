@@ -21,6 +21,12 @@ A       A
                 echo "SHA256 of 'André Lopes': " . hash('sha256', 'André Lopes');
             ?>
         </div>
+        
+        <!-- Links to fail.php and check.php -->
+        <div class="links">
+            <p><a href="fail.php">Click here to trigger an error.</a></p>
+            <p><a href="check.php">Click here to check for errors.</a></p>
+        </div>
     </div>
     <footer>
         <p>PHP Project by André Lopes</p>
