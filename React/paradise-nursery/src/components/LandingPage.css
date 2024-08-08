@@ -1,13 +1,16 @@
 .landing-page {
-  background: url(./images/background-image_landing_page.jpg) no-repeat center center fixed;
+  background-image: url('./images/background-image_landing_page.jpg');
   background-size: cover;
-  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  color: white;
-  text-align: center;
+  justify-content: center;
+  padding: 20px;
 }
+
 
 .landing-content {
   background: rgba(0, 0, 0, 0.5);

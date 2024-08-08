@@ -1,6 +1,6 @@
 /* src/components/ProductListingPage.css */
 .products-page {
-    background-image: url('./images/products-backgroun.jpg');
+  background-image: url('./images/products-backgroun.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
