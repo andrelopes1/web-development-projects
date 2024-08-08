@@ -1,0 +1,41 @@
+.landing-page {
+  background: url(./images/background-image_landing_page.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.landing-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.landing-content h1 {
+  font-size: 3em;
+}
+
+.landing-content p {
+  font-size: 1.5em;
+}
+
+.get-started {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.get-started:hover {
+  background-color: #45a049;
+}
+
+  

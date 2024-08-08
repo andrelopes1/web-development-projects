@@ -1,0 +1,40 @@
+.header {
+  background-color: #4CAF50;
+  padding: 3px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure the header is above other content */
+}
+
+.logo-container {
+  height: 100%;
+}
+
+.logo {
+  height: 80px; /* Adjust the height as needed */
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+  
